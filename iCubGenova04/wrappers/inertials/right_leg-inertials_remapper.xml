@@ -6,6 +6,10 @@
         <param name="period">       10                  </param>
         <!-- The below parameter names are set from the macro MAS_getTagFromEnum(enum MAS_SensorType) + "Names"
              defined in <yarp/dev/MultipleAnalogSensorsInterfaces.h> and respective device source file -->
+        <param name="OrientationSensorsNames">
+          (r_upper_leg_ft_eul_3b11
+           r_lower_leg_ft_eul_3b14)
+        </param>
         <param name="ThreeAxisGyroscopesNames">
           (r_upper_leg_ft_gyro_3b11
            r_upper_leg_ems_gyro_eb8
